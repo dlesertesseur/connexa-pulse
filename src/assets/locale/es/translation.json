@@ -1,0 +1,1076 @@
+{
+  "main": {
+    "title": "CONNEXA",
+    "subtitle": "Retail platform"
+  },
+
+  "signIn": "Login",
+  "forgotPassword": "Restablecer contraseña",
+
+  "auth": {
+    "title": "¡Bienvenido!",
+    "forgotPassword": "Olvidé mi contraseña?",
+    "doNotHaveAccount": "¿No tienes una cuenta?",
+    "haveAccount": "¿Ya tienes una cuenta?",
+    "createAccount": "Crear una"
+  },
+
+  "signUp": {
+    "title": "Crear una cuenta",
+    "message": "Nos alegra mucho que este aqui, connexa es una plataforma que cuenta con muchas herramientas para ayudarlo en la gestion y planificacion."
+  },
+
+  "message": {
+    "update": "La actualizacio fue realizada con éxito.",
+    "savingData": "Actualizando datos en el servidor.",
+    "savingDataSub": "Espere hasta que la información termine de actualizarse.",
+    "loadingData": "Cargando datos desde el servidor.",
+    "loadingDataSub": "Por favor espere hasta que la información termine de cargarse."
+  },
+
+  "status": {
+    "ok": "Correcto",
+    "error": "Algo anduvo mal !!!"
+  },
+
+  "button": {
+    "signIn": "Iniciar sesión",
+    "signUp": "Únete",
+    "resetPassword": "Restablecer contraseña",
+    "back": "Volver",
+    "accept": "Aceptar",
+    "cancel": "Cancelar",
+    "dashboard": "Monitor",
+    "refresh": "Actualizar",
+    "seeMore": "Ver mas",
+    "close": "Cerrar",
+    "uploadImage": "Asignar imagen",
+    "upload": "Subir productos",
+    "download": "Bajar productos",
+    "detailBysite": "Detalle por sitio",
+    "logout": "Cerrar sesion",
+    "save": "Salvar",
+    "finishEditing": "Terminar edicion",
+    "addPart": "Agregar parte",
+    "backImage": "Imagen de fondo",
+    "pixelMeterRelation": "Pixel/Metro",
+    "deleteImage": "Eliminar imagen",
+    "addLabel": "Agregar etiqueta",
+    "seek": "Buscar",
+    "create": "Crear",
+    "createAnyway": "Crear de todos modos",
+    "createWorkerRelation": "Relacionar con esta organización",
+    "photos": "Fotos",
+    "roles": "Perfiles",
+    "sites": "Sitios",
+    "backStep": "Anterior",
+    "nextStep": "Proximo",
+    "objectInspector": "Inspector de objetos",
+    "assignNames": "Asignar nombres",
+    "options": "Options",
+    "menu": "Menu"
+  },
+
+  "label": {
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electronico",
+    "password": "Clave",
+    "enterprise": "Empresa",
+    "receiveInfo": "Quiero recibir promociones de marketing y actualizaciones por correo electrónico.",
+    "name": "Nombre",
+    "value": "Valor",
+    "principalMenu": "Nemu principal",
+    "crud": {
+      "create": "Nuevo",
+      "update": "Modificar",
+      "delete": "Eliminar",
+      "filter": "Filtro",
+      "images": "Imagenes"
+    },
+    "applications": "Aplicaciones",
+    "description": "Descripcion",
+    "icon": "Icono",
+    "path": "Ruta",
+    "parameter": "Parametro",
+    "organization": "Origanization",
+    "project": "Proyecto",
+    "creationDate": "Fecha de creacion",
+    "inRole": "Agregadas al rol",
+    "phone": "Telefono",
+    "address": "Direccion",
+    "sku": "SKU",
+    "ean": "EAN",
+    "brand": "Marca",
+    "price": "Precio",
+    "currency": "Moneda",
+    "countryOfOrigin": "Pais de origen",
+    "status": "Estado",
+    "translations": "Traducciones",
+    "measureType": "Tipo de medida",
+    "measureUnit": "Unidad de medida",
+    "measurementTypeForContentText": "Tipo de medida para el contenido",
+    "measurementUnitForContentText": "Unidad de medida del contenido",
+    "measurementTypeForSaleText": "Tipo de medida para la venta",
+    "measurementUnitForSaleText": "Unidad de medida para la venta",
+    "measurementTypeForPriceText": "Tipo de medida por precio",
+    "measurementUnitForPriceText": "Unidad de medida por precio",
+    "context": "Contexto",
+    "roles": "Roles",
+    "id": "Id",
+    "authorizations": "Autorizaciones",
+    "role": "Rol",
+    "day": "Dia",
+    "week": "Sem",
+    "month": "Mes",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "keepMeConnected": "Mantenerme contectado",
+    "conditions": "Acepto los términos y condiciones",
+    "selectedSite": "Usted esta trabajando en",
+    "noData": "Sin datos",
+    "site": "Sitio",
+    "siteDesc": "Seleccione un sitio para ver las plantas definidas",
+    "floor": "Planta",
+    "floorDesc": "Selecciona una planta para ver el plano",
+    "select": "Seleccionar uno, por favor",
+    "true": "Si",
+    "false": "No",
+    "activateEdition": "Activar edicion",
+    "adjustImage": "Ajustar imagen",
+    "dropZone": "Arrastre imágenes aquí o haga clic para seleccionar archivos",
+    "dropZoneSub": "Adjunte tantos archivos como desee, cada archivo no debe exceder los 5 MB",
+    "measurementControl": "Controles de medicion",
+    "markerText": "Texto de marcador",
+    "fontFamily": "Tipo de fuente",
+    "fontSize": "Tamaño de fuente",
+    "textAlign": "Alinear texto",
+    "left": "Izquierda",
+    "center": "Centro",
+    "right": "Derecha",
+    "textColor": "Color de texto",
+    "openingTime": "Apertura",
+    "closingTime": "Cierre",
+    "url": "http://www.zeetrex.com",
+    "copyright": "© 2023 zeeTrex",
+    "settings": "Ajustes",
+    "selectLanguage": "Seleccione su idioma de preferencia",
+    "basicUser": "Usuario",
+    "retailer": "Retailers (cadennas)",
+    "retailerDesc": "Seleccione un retailer (cadeena) para ver los destinos definidos",
+    "translate": "Trasladar",
+    "rotate": "Rotar",
+    "scale": "Escalar",
+    "informationData": "información",
+    "reverseAssignment": "Asignación inversa",
+    "options": "Opciones",
+    "locationX": "Posición X",
+    "locationY": "Posición Y",
+    "locationZ": "Posición Z",
+    "rotationX": "Rotación X",
+    "rotationY": "Rotación Y",
+    "rotationZ": "Rotación Z",
+    "dimensionX": "Dimension X",
+    "dimensionY": "Dimension Y",
+    "dimensionZ": "Dimension Z",
+    "layouts":"Layouts",
+    "racks":"Racks",
+    "markers":"Marcas",
+    "graph":"Grafo de ruteo",
+    "wmsApiAuth":"Autenticando en el api WMS",
+    "wmsApiData":"Obteniendo datos de la API de WMS"    ,
+    "color":"Color"
+  },
+
+  "placeholder": {
+    "email": "tu@connexa.com",
+    "password": "Su contraseña",
+    "firstName": "Su nombre",
+    "lastName": "Su apellido",
+    "search": "Buscar por cualquier campo",
+    "informationData": "La información debe suministrar separada por salto de linea, espacio o coma"
+  },
+
+  "language": {
+    "es": "Español",
+    "en": "Ingles"
+  },
+
+  "validation": {
+    "required": "Campo requerido",
+    "numeric": "Valor numerico",
+    "emailFormat": "Formato de email incorrecto",
+    "idNumberFormat": "Formato de numero de identificacion incorrecto",
+    "phoneNumberFormat": "Formato de numero de telefono incorrecto",
+    "passwordFormat": "La contraseña debe incluir al menos 6 caracteres",
+    "terms": "Tienes que aceptar los términos y condiciones"
+  },
+
+  "errors": {
+    "title": "ERROR",
+    "notImplemented": "La aplicacion aun no fue implenetada",
+    "loadApp": "No fue posible ejecutar aplicación",
+    "1001": "Error al intentar iniciar session",
+    "1002": "Error al registrarse",
+    "404": "Usuario o clave invalida",
+    "listCheckValidation": "Debe marcar al menos una fila",
+    "jsonData": "Formato json inválido",
+    "wmsApiTokenNotFound": "WMS Api key no encontrado"
+  },
+
+  "notification": {
+    "title": "Notificacion",
+    "signUpOK": "Usuario creado correctamente",
+    "delete": "¿Esta seguro de eliminar el registro?",
+    "createWorker": "El colaborador no está registrado en ninguna organización configurada en la platarforma.",
+    "createWorkerRelation": "El colaborador ya está registrado en la plataforma. ¿Desa relacionarlo con esta organización?",
+    "workerAlreadyExist": "El colaborador ya está registrado en esta organización.",
+    "userAllreadyExist": "El usuario ya está registrado en esta organización.",
+    "createUser": "El usuario no está registrado en la organización."
+  },
+
+  "app": {
+    "name": "zeeTrex - Platform",
+    "dashboard": {
+      "name": "PANEL DE CONTROL"
+    }
+  },
+
+  "userOptions": {
+    "profile": "Perfil",
+    "account": "Mi cuenta",
+    "logout": "Cerrar sesion"
+  },
+
+  "crud": {
+    "application": {
+      "name": "APLICACIONES",
+      "title": {
+        "create": "Crear una nueva aplicacion",
+        "update": "Modificar una aplicacion",
+        "delete": "Eliminar una aplicacion"
+      },
+      "label": {
+        "name": "Nombre",
+        "description": "Descripcion",
+        "path": "Ruta",
+        "icon": "Icono"
+      },
+      "columns": ["Icono", "Nombre", "Descripcion", "Ruta"],
+      "align": ["center", "left", "left", "left"],
+      "width": ["5%", "30%", "45%", "20%"],
+      "translation": {
+        "columns": ["Localizacion", "Idioma", "Nombre", "Descripcion"],
+        "align": ["center", "left", "left", "left"],
+        "width": ["5%", "10%", "30%", "55%"]
+      }
+    },
+    "parameter": {
+      "name": "PARAMETROS",
+      "title": "ABM DE PARAMETROS",
+      "columns": ["Nombre", "Valor"],
+      "align": ["left", "left"],
+      "width": ["30%", "70%"]
+    },
+
+    "organization": {
+      "name": "ORGANIZACIONES",
+      "title": {
+        "create": "Crear una nueva organizacion",
+        "update": "Modificar la organizacion",
+        "delete": "Eliminar la organizacion",
+        "assignRoles": "Asignar perfiles"
+      },
+      "label": {
+        "name": "Nombre",
+        "description": "Descripcion",
+        "roles": "Perfiles"
+      },
+      "applications": {
+        "columns": ["Nombre", "Descripcion"]
+      },
+      "columns": ["Nombre", "Descripcion", "Fecha de creacion"],
+      "align": ["left", "left", "center"],
+      "width": ["30%", "50%", "20%"]
+    },
+
+    "project": {
+      "name": "PROYECTOS",
+      "title": "ABM DE PROYECTOS",
+      "columns": ["Nombre", "Descripcion", "Fecha de creacion"],
+      "align": ["left", "left", "center"],
+      "width": ["30%", "50%", "20%"]
+    },
+
+    "floorGrapthEditor": {
+      "name": "FLOOR_GRAPH_EDITOR",
+      "columns": ["Name", "Description"],
+      "label": {
+        "addNode": "Agregar nodo al hacer clic",
+        "linkStructures": "Racks",
+        "linkNodes": "Nodos",
+        "group": "Agrupado",
+        "rackOrientation": "Orientación",
+        "createBaseNodes": "Base",
+        "nodeProperties": "Propiedades del nodo",
+        "name": "Nombre",
+        "description":"Descripcion",
+        "nameDescription": "Nonbre que identifica al grafo",
+        "settingsNenu": "Configuracion",
+        "graph": "Grafo",
+        "connectors": "Conectores"
+      },
+      "title": {
+        "delete": "Eliminar grafo"
+      }
+    },
+
+    "role": {
+      "name": "ROLES",
+      "title": {
+        "create": "Crear un nuevo rol",
+        "update": "Modificar un rol",
+        "delete": "Eliminar un rol",
+        "assignApps": "Asignar aplicaciones"
+      },
+      "label": {
+        "name": "Nombre",
+        "context": "Contexto",
+        "groupName": "Agropamiento",
+        "applications": "Aplicaciones"
+      },
+      "columns": ["Nombre", "Agrupamiento", "Contexto"],
+      "align": ["left", "left"],
+      "width": ["30%", "65%"],
+      "selectApplications": "Seleccionar aplicaciones",
+      "translation": {
+        "columns": ["Localizacion", "Idioma", "Nombre"],
+        "align": ["center", "left", "left"],
+        "width": ["15%", "15%", "70%"]
+      }
+    },
+
+    "site": {
+      "columns": ["Nombre", "Direccion", "Telefono", "Contexto"],
+      "label": {
+        "name": "Nombre",
+        "address": "Direccion",
+        "phones": "Telefonos",
+        "contextId": "Contexto",
+        "description": "Descripcion",
+        "city": "Cuidad",
+        "country": "Pais",
+        "province": "Provincia",
+        "type": "Tipo",
+        "latitude": "Latitud",
+        "longitude": "Longitud",
+        "radius_in_meters": "Radio de accion",
+        "status": "Estado"
+      },
+      "placeholder": {
+        "name": "Nombre de la sucursal",
+        "address": "Direccion de la sucursal",
+        "phones": "Telefonos",
+        "contextId": "Contexto",
+        "description": "Descripcion",
+        "city": "Cuidad",
+        "country": "Pais",
+        "province": "Provincia",
+        "type": "Tipo",
+        "latitude": "Latitud",
+        "longitude": "Longitud",
+        "radius_in_meters": "Radio de accion",
+        "status": "Estado"
+      },
+      "title": {
+        "create": "Crear una nueva sucursal",
+        "update": "Modificar la sucursal",
+        "delete": "Eliminar la sucursal"
+      },
+      "message": {},
+      "check": {
+        "columns": ["Nombre", "Contexto"]
+      }
+    },
+
+    "retailer": {
+      "columns": ["Nombre", "Direccion", "Telefono", "Contexto"],
+      "label": {
+        "name": "Nombre",
+        "image": "Logo"
+      },
+      "placeholder": {
+        "name": "Nombre",
+        "image": "Logo"
+      },
+      "title": {
+        "create": "Crear un nuevo retailer",
+        "update": "Modificar un retailer",
+        "delete": "Eliminar un retailer"
+      },
+      "message": {}
+    },
+
+    "retailerStore": {
+      "columns": ["Nombre", "Direccion", "Pais", "Provincia", "Ciudad", "Tipo"],
+      "label": {
+        "name": "Nombre",
+        "address": "Direccion",
+        "phones": "Telefonos",
+        "contextId": "Contexto",
+        "description": "Descripcion",
+        "city": "Cuidad",
+        "country": "Pais",
+        "province": "Provincia",
+        "type": "Tipo",
+        "latitude": "Latitud",
+        "longitude": "Longitud",
+        "radius_in_meters": "Radio de accion",
+        "status": "Estado"
+      },
+      "placeholder": {
+        "name": "Nombre de la sucursal",
+        "address": "Direccion de la sucursal",
+        "phones": "Telefonos",
+        "contextId": "Contexto",
+        "description": "Descripcion",
+        "city": "Cuidad",
+        "country": "Pais",
+        "province": "Provincia",
+        "type": "Tipo",
+        "latitude": "Latitud",
+        "longitude": "Longitud",
+        "radius_in_meters": "Radio de accion",
+        "status": "Estado"
+      },
+      "title": {
+        "create": "Crear un nuevo destino",
+        "update": "Modificar un destino",
+        "delete": "Eliminar un destino"
+      },
+      "message": {}
+    },
+
+    "brand": {
+      "title": {
+        "create": "Create a new brand",
+        "update": "Update brand",
+        "delete": "Delete brand"
+      },
+      "label": {
+        "name": "Nombre"
+      },
+      "placeholder": {
+        "name": "Un nombre"
+      },
+      "name": "MARCAS",
+      "columns": ["Nombre"],
+      "align": ["left"],
+      "width": ["100%"]
+    },
+
+    "category": {
+      "title": {
+        "create": "Crear una nueva categoria",
+        "update": "Modificar una categoria",
+        "delete": "Eliminar una categoria"
+      },
+      "label": {
+        "name": "Name",
+        "description": "Description",
+        "toChildren": "Inspeccionar",
+        "toParent": "Volver"
+      },
+      "name": "ABM DE CATEGORIAS",
+      "columns": ["Nombre", "Descripcion", ""],
+      "align": ["left", "left", "center"],
+      "width": ["25%", "60%", "5%"],
+      "menu": {
+        "add": "Agregar categoria",
+        "remove": "Eliminar categoria"
+      }
+    },
+
+    "toolbar": {
+      "create": "Crear",
+      "update": "Modificar",
+      "remove": "Eliminar",
+      "search": "Buscar",
+      "translation": "Traduccion"
+    },
+
+    "product": {
+      "name": "PRODUCTOS",
+      "title": {
+        "create": "Crear un nuevo producto",
+        "update": "Modificar producto",
+        "delete": "Eliminar producto"
+      },
+      "label": {
+        "sku": "SKU",
+        "ean": "EAN",
+        "description": "Descripcion",
+        "brand": "Marca",
+        "status": "Estado",
+        "countryOfOrigin": "Pais de origen"
+      },
+      "columns": ["Imagen", "SKU", "EAN", "Descripcion", "Marca", "País de origen", "Estado"],
+      "align": ["center", "right", "right", "left", "left", "left"],
+      "width": ["5%", "5%", "10%", "50%", "10%", "10%", "10%"],
+      "tab1": "Informacion general",
+      "tab2": "Unidades de medida",
+      "tab3": "Media",
+      "tab4": "3D"
+    },
+
+    "context": {
+      "name": "CONTEXTO",
+      "title": "ABM CONTEXTO",
+      "columns": ["ID", "Nombre", "Descripcion"],
+      "align": ["right", "left", "left"],
+      "width": ["5%", "40%", "55%"]
+    },
+
+    "categorizer": {
+      "title": {
+        "addProducts": "Agregar productos a la categoria",
+        "categoriesTree": "Arbol de categorias"
+      },
+      "label": {
+        "addProducts": "Agregar productos",
+        "search": "Buscar",
+        "noData:": "Sin datos",
+        "assignedProducts": " Productos asignados",
+        "unassignedProducts": "Productos NO asignados"
+      },
+      "columns": ["", "", "SKU", "EAN", "Descripcion", "Estado"],
+      "align": ["center", "center", "right", "left", "left", "left"],
+      "width": ["5%", "5%", "10%", "15%", "50%", "15%"]
+    },
+
+    "storageStructure": {
+      "columns": [
+        "Nombre",
+        "Ancho (m)",
+        "Alto (m)",
+        "Profundidad (m)",
+        "Posición X",
+        "Posición Y",
+        "Posición Z",
+        "Rotacion (°)",
+        "Visible"
+      ],
+
+      "label": {
+        "name": "Nombre",
+        "numberOfModules": "Numero de módulos",
+        "moduleWidth": "Ancho de modulo",
+        "moduleHeight": "Alto del modulo",
+        "moduleDepth": "Profundidad del modulo",
+        "baseHeight": "Alto de la base",
+        "shelfHeight": "Alto del estante",
+        "verticalPanelWidth": "Ancho panel vertical",
+        "initialXPosition": "Initial X position",
+        "numberOfShelvesByModule": "Estantes por modulo",
+        "panelWidth": "Ancho del panel trasero",
+        "spaceHeight": "Alto del espacio",
+        "visible": "Visible"
+      },
+      "placeholder": {
+        "name": "Nombre de la estructura",
+        "numberOfModules": "Numero de módulos",
+        "moduleWidth": "Ancho de modulo",
+        "moduleHeight": "Alto del modulo",
+        "moduleDepth": "Profundidad del modulo",
+        "baseHeight": "Alto de la base",
+        "shelfHeight": "Alto del estante",
+        "verticalPanelWidth": "Ancho panel vertical",
+        "initialXPosition": "Initial X position",
+        "numberOfShelvesByModule": "Estantes poe modulo",
+        "panelWidth": "Ancho del panel trasero",
+        "spaceHeight": "Alto del espacio",
+        "visible": "Visible"
+      },
+
+      "title": {
+        "create": "Creare a new Rack",
+        "update": "Update a Rack",
+        "delete": "Delete a Rack"
+      },
+      "message": {
+        "create": "Todas las medidas están expresadas en metros.",
+        "update": "Todas las medidas están expresadas en metros.",
+        "delete": "Todas las medidas están expresadas en metros."
+      }
+    },
+
+    "modelStructure": {
+      "columns": [
+        "Nombre",
+        "Descripcion",
+        "Ancho (m)",
+        "Alto (m)",
+        "Profundidad (m)",
+        "Posición X",
+        "Posición Y",
+        "Posición Z",
+        "Rotacion (°)",
+        "Visible"
+      ],
+
+      "label": {
+        "name": "Nombre",
+        "desctipcion": "Descripcion",
+        "numberOfModules": "Numero de módulos",
+        "moduleWidth": "Ancho de modulo",
+        "moduleHeight": "Alto del modulo",
+        "moduleDepth": "Profundidad del modulo",
+        "baseHeight": "Alto de la base",
+        "shelfHeight": "Alto del estante",
+        "verticalPanelWidth": "Ancho panel vertical",
+        "initialXPosition": "Initial X position",
+        "numberOfShelvesByModule": "Estantes por modulo",
+        "panelWidth": "Ancho del panel trasero",
+        "spaceHeight": "Alto del espacio",
+        "visible": "Visible",
+        "module": "Modulo",
+        "type": "Tipo"
+      },
+      "placeholder": {
+        "name": "Nombre de la estructura",
+        "desctipcion": "Descripcion",
+        "numberOfModules": "Numero de módulos",
+        "moduleWidth": "Ancho de modulo",
+        "moduleHeight": "Alto del modulo",
+        "moduleDepth": "Profundidad del modulo",
+        "baseHeight": "Alto de la base",
+        "shelfHeight": "Alto del estante",
+        "verticalPanelWidth": "Ancho panel vertical",
+        "initialXPosition": "Initial X position",
+        "numberOfShelvesByModule": "Estantes poe modulo",
+        "panelWidth": "Ancho del panel trasero",
+        "spaceHeight": "Alto del espacio",
+        "visible": "Visible",
+        "editor": "Editar"
+      },
+      "title": {
+        "create": "Crear una nueva estructura modelo",
+        "update": "Modificar una estructura modelo",
+        "delete": "Eliminar una estructura modelo",
+        "edit": "Editar estructure modelo"
+      },
+      "message": {
+        "create": "Todas las medidas están expresadas en metros.",
+        "update": "Todas las medidas están expresadas en metros.",
+        "delete": "Todas las medidas están expresadas en metros."
+      }
+    },
+
+    "floor": {
+      "columns": ["Nombre", "Descripcion"],
+      "label": {
+        "name": "Nombre",
+        "description": "Descripcion"
+      },
+      "placeholder": {
+        "name": "Nombre de planta",
+        "description": "Descripcion de planta"
+      },
+
+      "title": {
+        "create": "Crear una nueva Planta",
+        "update": "Modificar una Planta",
+        "delete": "Eliminar una Planta",
+        "images": "Agregar imagenes a la planta"
+      },
+      "message": {}
+    },
+
+    "worker": {
+      "name": "WORKERS",
+      "title": {
+        "create": "Crear un nuevo colaborador",
+        "update": "Modificar los datos de un colaborador",
+        "delete": "Eliminar los datos de un colaborador",
+        "findWorker": "Buscar a un colaborador",
+        "organizationList": "Organizaciones a las que pertenece la colaborador/a.",
+        "photos": "Lista de fotos asociadas"
+      },
+      "label": {
+        "nid": "DNI",
+        "lastname": "Apellido",
+        "firstname": "Nombre",
+        "address": "Direccion",
+        "phone": "Telefono",
+        "email": "Email",
+        "country": "Pais",
+        "city": "Cuidad",
+        "status": "Estado",
+        "active": "Activo",
+        "birthDate": "Fecha de nacimiento"
+      },
+      "placeholder": {
+        "phone": "054 11 5555 5555"
+      },
+      "columns": [
+        "Image",
+        "DNI",
+        "Apellido",
+        "Nombre",
+        "Fecha de macimiento",
+        "Direccion",
+        "Telefono",
+        "Email",
+        "Pais",
+        "Ciudad",
+        "Estado"
+      ],
+      "align": ["right", "left", "left", "left", "left", "left", "left", "left", "left", "left"],
+      "findWorkerColumns": ["Organización", "Desde"],
+      "findWorkerAlign": ["left", "left"]
+    },
+
+    "user": {
+      "name": "USERS",
+      "title": {
+        "create": "Crear un nuevo usuario",
+        "update": "Modificar los datos de un usuario",
+        "delete": "Eliminar los datos de un usuario",
+        "findUser": "Buscar a un usuario",
+        "photos": "Lista de fotos asociadas:",
+        "role": "Definicion de perfiles:",
+        "site": "Sitios"
+      },
+      "label": {
+        "nid": "DNI",
+        "lastname": "Apellido",
+        "firstname": "Nombre",
+        "address": "Direccion",
+        "phone": "Telefono",
+        "email": "Email",
+        "country": "Pais",
+        "city": "Cuidad",
+        "status": "Estado",
+        "active": "Activo",
+        "birthDate": "Fecha de nacimiento",
+        "password": "Contraseña"
+      },
+      "placeholder": {
+        "phone": "054 11 5555 5555"
+      },
+      "columns": [
+        "Image",
+        "DNI",
+        "Apellido",
+        "Nombre",
+        "Fecha de macimiento",
+        "Direccion",
+        "Telefono",
+        "Email",
+        "Pais",
+        "Ciudad",
+        "Estado"
+      ],
+      "align": ["right", "left", "left", "left", "left", "left", "left", "left", "left", "left"],
+      "findUserColumns": ["Organización", "Desde"],
+      "findUserAlign": ["left", "left"]
+    },
+
+    "shift": {
+      "name": "SHIFT",
+      "title": {
+        "create": "Crear a nuevo turno",
+        "update": "Modificar un turno",
+        "delete": "Eliminar un turno"
+      },
+      "label": {
+        "startTime": "Hora de inicio",
+        "durationsInHours": "Duracion en horas",
+        "pauseType": "Tipo de pause",
+        "pauseStartTime": "Inicio de pausa",
+        "pauseDurationsInMinutes": "Duracion de pausa",
+        "jobType": "Tipo de trabajo",
+        "retailer": "Retailer",
+        "store": "Tienda",
+        "retailerDesc": "Seleccionar un retailer para ver las tiendas",
+        "date": "Fecha",
+        "pause": "Pausa",
+        "worker": "Asignado a",
+        "timeline1": "Ingreso a tienda",
+        "timeline2": "Inicio de",
+        "timeline3": "Fin de",
+        "timeline4": "Fin del turno",
+        "radius": "Distancia minima para detección de posición",
+        "status": "Estado"
+      },
+      "placeholder": {},
+      "columns": [
+        "Trabajo",
+        "Fecha/Hora inicio",
+        "Fecha/Hora fin",
+        "Tipo pausa",
+        "Fecha/Hora inicio pausa",
+        "Fecha/Hora fin pausa",
+        "Dia de inicio",
+        "Dia de fin",
+        "Estado"
+      ]
+    },
+
+    "variables": {
+      "name": "VARIABLES",
+      "title": {
+        "create": "Crear una nueva variable",
+        "update": "Modificar una variable",
+        "delete": "Eliminar una variable"
+      },
+      "label": {
+        "name": "Nombre",
+        "value": "Valor"
+      },
+      "placeholder": {
+        "name": "un nombre",
+        "value": "un valor"
+      },
+      "columns": ["Nombre", "Valor"],
+      "align": ["left", "left"],
+      "width": ["40%", "60%"]
+    }
+  },
+
+  "wizard": {
+    "registration": {
+      "name": "REGISRACION",
+      "title": {
+        "create": "Nuevo"
+      },
+      "label": {
+        "nid": "DNI",
+        "lastname": "Apellido",
+        "firstname": "Nombre",
+        "address": "Direccion",
+        "phone": "Telefono",
+        "email": "Email",
+        "country": "Pais",
+        "city": "Cuidad",
+        "status": "Estado",
+        "active": "Activo",
+        "birthDate": "Fecha de nacimiento"
+      },
+      "placeholder": {},
+      "columns": ["Nombre", "Descripcion"]
+    }
+  },
+
+  "title": {
+    "dialog": {
+      "alert": {
+        "delete": "Eliminar"
+      }
+    }
+  },
+
+  "dialog": {
+    "storageStructure": {
+      "title": "Estructura de almacenamiento"
+    },
+    "textEditor": {
+      "title": "Editar texto"
+    }
+  },
+
+  "constant": {
+    "category": {
+      "defaultName": "Nueva categoria"
+    }
+  },
+
+  "view": {
+    "dashboard": {
+      "line1": {
+        "card": {
+          "totaSales": "Total de Ventas",
+          "totalProductsSold": "Total productos vendidos",
+          "totalOrders": "Total tickets",
+          "averageTicket": "Ticket promedio"
+        }
+      },
+      "line2": {
+        "card": {
+          "totalCustomer": "Total de clientes",
+          "totalMoneyReturned": "Total dinero retornado",
+          "totalReturnedProducts": "Total productos retornados",
+          "usersConnected": "Usuarios Connectados"
+        }
+      }
+    },
+    "floorViewer": {
+      "findRouteNenu": {
+        "button": "Buscar camino",
+        "label": { "startPosition": "Posicion inicial", "endPosition": "Posicion final", "find": "Buscar" }
+      },
+      "menu": {
+        "label": "Items",
+        "title": "Opciones de busqueda",
+        "subTitle": "Seleccionar un grupo de informacion",
+        "options": ["Items por codigo", "Items por descripcion", "Items por marca", "Items por estado", "Items por tipo"]
+      },
+      "option": {
+        "itemByCode": {
+          "description": "Buscar item con un codio exacto",
+          "placeholder": "un codigo",
+          "label": "Codigo de item"
+        },
+        "itemByDescription": {
+          "description": "Buscar items con una decripcion similar",
+          "placeholder": "a descripcion",
+          "label": "Descripcion de item"
+        },
+        "itemByDepartament": {
+          "placeholder": "un departamento",
+          "label": "Seleccione un departamento"
+        },
+        "findByStatus": {
+          "placeholder": "un estado",
+          "label": "Seleccione un estado"
+        },
+        "itemByType": {
+          "placeholder": "un tipo",
+          "label": "Seleccione un tipo"
+        },
+        "itemByTrademark": {
+          "placeholder": "a marca",
+          "label": "Seleccione una marca"
+        }
+      },
+      "moduleInspector":{
+        "tabs":{
+          "information":"Informacion",
+          "view3d":"Vista 3D"
+        },
+        "label":{
+          "rackLevel":"Nivel en el rack",
+          "height":"Alto",
+          "width":"Ancho",
+          "depth":"Profundidad",
+          "rackType":"Tipo",
+          "status":"Estado",
+          "pallets":"Pallets",
+          "palletDimension":"Dimension",
+          "palletType":"Tipo",
+          "palletStatus":"Estado",
+          "palletCreationDate":"Fecha de creacion"
+        }
+      },
+      "layer":{
+        "label":"Capas",
+        "frames":"Soportes"
+      }
+    }
+  },
+
+  "editor": {
+    "modelStructure": {
+      "title": {
+        "create": "Nueva estrctura",
+        "racking": "Nuevo rack",
+        "shelving": "Nueva estanteria",
+        "objectList": "Inpector de objetos",
+        "assignNames": "Asignar nombres",
+        "partInspector": "Inspector de partes"
+      },
+      "label": {
+        "name": "Nombre",
+        "numberOfModules": "Módulos",
+        "moduleWidth": "Ancho de modulo",
+        "moduleHeight": "Alto del modulo",
+        "moduleDepth": "Prof. del modulo",
+        "baseHeight": "Alto de la base",
+        "shelfHeight": "Alto del estante",
+        "verticalPanelWidth": "Ancho panel vertical",
+        "initialXPosition": "Initial X position",
+        "numberOfShelvesByModule": "Estantes por modulo",
+        "panelThickness": "Espesor panel trasero",
+        "spaceHeight": "Alto del espacio",
+        "visible": "Visible",
+        "palletWidth": "Ancho del Pallet",
+        "palletHeight": "Alto del Pallet",
+        "palletDepth": "Prof. del Pallet",
+        "maxLoadHeight": "Altuda max. carga",
+        "levels": "Niveles",
+        "uprightDepth": "Profundidad",
+        "beamLength": "Largo (viga)",
+        "columnSide": "Ancho/Espe. col.",
+        "beamHeight": "Alto viga",
+        "beamDepth": "Prof. viga",
+        "numberOfModulesX": "Modulos en (X)",
+        "numberOfModulesZ": "Modulos en (Z)",
+        "columnHeight": "Alto de columna",
+        "module": "Modulo",
+        "type": "Tipo",
+        "dimx": "Ancho",
+        "dimy": "Alto",
+        "dimz": "Prof.",
+        "positionx": "Pos-X (mts)",
+        "positiony": "Pos-Y (mts)",
+        "positionz": "Pos-Z (mts)",
+        "rotationx": "Rot-X (gr)",
+        "rotationy": "Rot-Y (gr)",
+        "rotationz": "Rot-Z (gr)",
+        "dimensionx": "Dim-X (mts)",
+        "dimensiony": "Dim-Y (mts)",
+        "dimensionz": "Dim-Z (mts)",
+        "separation": "Separación",
+        "separationX": "Separación (X)",
+        "separationZ": "Separación (Z)"
+      },
+      "placeholder": {
+        "name": "Un nombre",
+        "aValue": "un valor"
+      },
+      "dialog": {
+        "structureBuilder": "Constructor de estructuras"
+      },
+      "items": {
+        "shelving": {
+          "retailStore": "Retail store"
+        },
+        "racking": {
+          "basic": "Basico",
+          "selective": "Selectivo",
+          "pushBack": "Push Back",
+          "palletFlow": "Pallet Flow",
+          "staging": "Staging"
+        }
+      }
+    }
+  },
+
+  "tooltip": {
+    "operatorsStatus": "Muestra la posicion y actividad que estan realizando los operarios en tiempo real",
+    "lockMove": "Bloquea el movimiento y la rotación de las estructuras de almacenamiento",
+    "snapToGrid": "Alinear a la cuadricula",
+    "showBackImage": "Mostrar imagen de fondo",
+    "moduleSelection": "Selección por módulo"
+  },
+
+  "partType": {
+    "wall": "Muro",
+    "column": "Columa",
+    "zone": "Zona"
+  },
+
+  "stageContextMenu": {
+    "addMarker": "Agregar etiqueta"
+  },
+
+  "datesOfWeek": {
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo"
+  }
+}
