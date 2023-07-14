@@ -1,3 +1,4 @@
+import "./App.css";
 import "./i18n";
 import { ColorSchemeProvider, MantineProvider } from "@mantine/core";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -14,6 +15,7 @@ function App() {
   const toggleColorScheme = (value) => setColorScheme(value || (colorScheme === "dark" ? "light" : "dark"));
 
   const [user, setUser] = useState(null);
+  const [token, setToken] = useState("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJvcmdhbml6YXRpb25JZCI6ImU3MmRhZGMzLTExMGItNDY2ZC05NGRkLTNjMjlkMWE1ZWZjZiIsInN1YiI6ImFkbWluQGRlbW8uY29tLmFyIiwiZXhwIjoxNjkwMTY1NDEwLCJhdXRob3JpdGllcyI6W119.Cv7o6ORH4rakPZXmIE973n9U49_YsxYusexLKF4_fY2fXFrRu_79KZfqf1oFjUKgJwmcJhO8qyjNnpevl1Csnw");
   const [loading, setLoading] = useState(null);
   const [error, setError] = useState(null);
 
@@ -21,7 +23,7 @@ function App() {
     <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
       <MantineProvider theme={{ colorScheme }} withGlobalStyles withNormalizeCSS>
         <Notifications />
-        <AppStateContext.Provider value={{ user, setUser, error, setError, loading, setLoading }}>
+        <AppStateContext.Provider value={{ user, setUser, error, setError, loading, setLoading, token, setToken }}>
           <BrowserRouter basename="/connexa-cli/pulse">
             <Routes>
               <Route path="*" element={<NotFound />} />

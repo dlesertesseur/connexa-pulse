@@ -4,9 +4,9 @@ import { AppStateContext } from "../context/AppStateContext";
 
 // eslint-disable-next-line react/prop-types
 export const ProtectedRoute = ({ children }) => {
-  const { user } = useContext(AppStateContext);
+  const { token } = useContext(AppStateContext);
 
-  if (!user.token) {
+  if (!token) {
     return <Navigate to="/" />;
   }
   return children;
