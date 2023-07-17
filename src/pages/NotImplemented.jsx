@@ -1,4 +1,5 @@
 import { createStyles, Title, Text, Button, Container, Group } from '@mantine/core';
+import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 
 const useStyles = createStyles((theme) => ({
@@ -39,13 +40,14 @@ const useStyles = createStyles((theme) => ({
   },
 }));
 
-export function NotFound() {
+export default function NotImplemented() {
   const { classes } = useStyles();
+  const { t } = useTranslation();
   const navigate = useNavigate();
 
   return (
     <Container className={classes.root}>
-      <div className={classes.label}>404</div>
+      <div className={classes.label}>{t("label.notImplemented")}</div>
       <Title className={classes.title}>You have found a secret place.</Title>
       <Text color="dimmed" size="lg" align="center" className={classes.description}>
         Unfortunately, this is only a 404 page. You may have mistyped the address, or the page has
@@ -53,7 +55,7 @@ export function NotFound() {
       </Text>
       <Group position="center">
         <Button variant="subtle" size="md" onClick={() => {
-            navigate("/menu");
+            navigate("../");
           }}>
           Take me back to home page
         </Button>

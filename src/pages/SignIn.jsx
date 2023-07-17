@@ -1,28 +1,16 @@
-import {
-  TextInput,
-  PasswordInput,
-  Paper,
-  Group,
-  Button,
-  Alert,
-  Stack,
-  useMantineTheme,
-  Image,
-  Text,
-  Center,
-} from "@mantine/core";
-import Logo from "../Logo";
-import LanguageSelector from "../languageSelector/LanguageSelector";
+import { TextInput, PasswordInput, Paper, Group, Button, Alert, Stack, useMantineTheme, Center } from "@mantine/core";
+import Logo from "../components/Logo";
 import { useForm } from "@mantine/form";
 import { useContext, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { IconAlertCircle } from "@tabler/icons-react";
-import { AppStateContext } from "../../context/AppStateContext";
-import { config } from "../../config/config";
-import { signIn } from "../../data/Auth";
+import { AppStateContext } from "../context/AppStateContext";
+import { signIn } from "../data/Auth";
+import LanguageSelector from "../components/LanguageSelector";
+import Contact from "../components/Contact";
 
-export function SignIn() {
+export default function SignIn() {
   const { t } = useTranslation();
   const theme = useMantineTheme();
   const navigate = useNavigate();
@@ -40,7 +28,7 @@ export function SignIn() {
 
   useEffect(() => {
     if (token) {
-      navigate("/menu");
+      navigate("/main");
     }
   }, [navigate, token]);
 
@@ -58,8 +46,8 @@ export function SignIn() {
   });
 
   return (
-    <Center w={"100vh"} h={"100vh"}>
-      <Stack m={"xl"} p={"xl"} align="center">
+    <Center h={"100vh"}>
+      <Stack p={"xl"} align="center" w={"100%"}>
         <Paper sx={{ width: 400 }} withBorder p={30} radius="md" bg={theme.colors.gray[0]}>
           <Logo width={120} />
           <form
@@ -105,23 +93,10 @@ export function SignIn() {
           ) : null}
 
           <Group grow mt={"xl"}>
-            <LanguageSelector disabled={loading}/>
+            <LanguageSelector disabled={loading} />
           </Group>
         </Paper>
-
-        <Group position="apart">
-          <Image
-            src={config.PUBLIC_URL + "/logos/zeetrex.png"}
-            alt="logo"
-            width={100}
-            component="a"
-            href={t("label.url")}
-            target="_blank"
-          />
-          <Text size={"xs"} weight={500} color="gray">
-            {t("label.copyright")}
-          </Text>
-        </Group>
+        <Contact />
       </Stack>
     </Center>
   );

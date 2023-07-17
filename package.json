@@ -22,6 +22,7 @@
     "@tabler/icons-react": "^2.25.0",
     "dayjs": "^1.11.9",
     "embla-carousel-react": "^8.0.0-rc11",
+    "framer-motion": "^10.12.21",
     "i18next": "^23.2.11",
     "i18next-browser-languagedetector": "^7.1.0",
     "i18next-http-backend": "^2.2.1",
