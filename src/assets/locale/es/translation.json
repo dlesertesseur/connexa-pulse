@@ -193,33 +193,7 @@
     "wmsApiAuth": "Autenticando en el api WMS",
     "wmsApiData": "Obteniendo datos de la API de WMS",
     "color": "Color",
-    "notImplemented":"Not implemented"
-  },
-
-  "options": {
-    "option1": {
-      "title": "Mapa",
-      "description": "Movimiento de operarios, Ubicación de productos, Zonas, Dispersión."
-    },
-    "option2": {
-      "title": "Actividades",
-      "description": "Cantidad de operarios por actividad en tiempo real."
-    },
-    "option3": {
-      "title": "Transporte",
-      "description": "Informacion general de transporte, Envios, Recepciones, Cargar, Dempras."
-    },
-    "option4": {
-      "title": "Productividad",
-      "description": "Informacion general de productividad, Ranking, Tareas realizadas, Tiempos, Demoras, Premios"
-    },
-    "option5": {
-      "title": "Velocidades",
-      "description": "Indicadores que reflejan conceptos expresados en magnitudes."
-    },
-    "option6": {
-      "title": "TMS",
-      "description": "Planificacion de viajes, Tiempos, Armado de pallets, Destinos."
-    }
+    "notImplemented":"No implementado",
+    "notImplementedDesc":"Lamentablemente el contenido de esta página no está implementado aún."
   }
 }

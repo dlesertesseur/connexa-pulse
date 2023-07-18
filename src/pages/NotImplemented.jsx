@@ -1,65 +1,33 @@
-import { createStyles, Title, Text, Button, Container, Group } from '@mantine/core';
-import { useTranslation } from 'react-i18next';
-import { useNavigate } from 'react-router-dom';
+import { Title, Text, Button, Group, Stack } from "@mantine/core";
+import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
-const useStyles = createStyles((theme) => ({
-  root: {
-    paddingTop: 80,
-    paddingBottom: 80,
-  },
-
-  label: {
-    textAlign: 'center',
-    fontWeight: 900,
-    fontSize: 220,
-    lineHeight: 1,
-    marginBottom: theme.spacing.xl * 1.5,
-    color: theme.colorScheme === 'dark' ? theme.colors.dark[4] : theme.colors.gray[2],
-
-    [theme.fn.smallerThan('sm')]: {
-      fontSize: 120,
-    },
-  },
-
-  title: {
-    fontFamily: `Greycliff CF, ${theme.fontFamily}`,
-    textAlign: 'center',
-    fontWeight: 900,
-    fontSize: 38,
-
-    [theme.fn.smallerThan('sm')]: {
-      fontSize: 32,
-    },
-  },
-
-  description: {
-    maxWidth: 500,
-    margin: 'auto',
-    marginTop: theme.spacing.xl,
-    marginBottom: theme.spacing.xl * 1.5,
-  },
-}));
-
-export default function NotImplemented() {
-  const { classes } = useStyles();
+// eslint-disable-next-line react/prop-types
+export default function NotImplemented({ title }) {
   const { t } = useTranslation();
   const navigate = useNavigate();
 
   return (
-    <Container className={classes.root}>
-      <div className={classes.label}>{t("label.notImplemented")}</div>
-      <Title className={classes.title}>You have found a secret place.</Title>
-      <Text color="dimmed" size="lg" align="center" className={classes.description}>
-        Unfortunately, this is only a 404 page. You may have mistyped the address, or the page has
-        been moved to another URL.
-      </Text>
-      <Group position="center">
-        <Button variant="subtle" size="md" onClick={() => {
+    <Stack align="center" justify="center" w={"100%"}>
+      <Group w={"100%"} position="center">
+        <Title>{title ? title : t("label.notImplementedDesc")}</Title>
+      </Group>
+      <Group w={"100%"} position="center">
+        <Text color="dimmed" size="lg" align="center">
+          {t("label.notImplemented")}
+        </Text>
+      </Group>
+
+      <Group w={"100%"} position="center">
+        <Button
+          variant="filled"
+          onClick={() => {
             navigate("../");
-          }}>
-          Take me back to home page
+          }}
+        >
+          {t("button.back")}
         </Button>
       </Group>
-    </Container>
+    </Stack>
   );
 }

@@ -1,24 +1,18 @@
-import { Container, Grid } from "@mantine/core";
-import Option from "../components/OptionsMenu/Option";
-// import {
-//   IconBrandSpeedtest,
-//   IconGraph,
-//   IconProgress,
-//   IconRoute2,
-//   IconTruckDelivery,
-//   IconLocationFilled,
-// } from "@tabler/icons-react";
+/* eslint-disable react/prop-types */
+import { Container, Grid } from '@mantine/core';
+import { useContext } from 'react';
+import { AppStateContext } from '../../../context/AppStateContext';
+import { ActivityButton } from './ActivityButton';
 
-import { useContext } from "react";
-import { AppStateContext } from "../context/AppStateContext";
 
-const Options = () => {
+const Actions = () => {
+
   const { options } = useContext(AppStateContext);
 
   const createGrid = (o, index) => {
     const ret = (
       <Grid.Col md={6} lg={4} key={index}>
-        <Option
+        <ActivityButton
           title={o.title}
           text={o.description}
           // icon={icon}
@@ -40,4 +34,4 @@ const Options = () => {
   );
 };
 
-export default Options;
+export default Actions;

@@ -39,7 +39,7 @@ const UserButton = () => {
   return (
     <Menu shadow="md">
       <Menu.Target>
-        <Avatar color={stringToColor(user.firstName + " " + user.lastName)} radius="xl">
+        <Avatar size={"sm"} color={stringToColor(user.firstName + " " + user.lastName)} radius="xl">
           {stringAvatar(user.firstName + " " + user.lastName)}
         </Avatar>
       </Menu.Target>

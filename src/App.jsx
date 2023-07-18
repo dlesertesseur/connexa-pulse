@@ -18,18 +18,21 @@ function App() {
   const [token, setToken] = useState(null);
   const [loading, setLoading] = useState(null);
   const [error, setError] = useState(null);
+  const [options, setOptions] = useState([]);
 
   return (
     <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
       <MantineProvider theme={{ colorScheme }} withGlobalStyles withNormalizeCSS>
         <Notifications />
-        <AppStateContext.Provider value={{ user, setUser, error, setError, loading, setLoading, token, setToken }}>
+        <AppStateContext.Provider
+          value={{ user, setUser, error, setError, loading, setLoading, token, setToken, options, setOptions }}
+        >
           <BrowserRouter basename="/connexa-cli/pulse">
-            <Routes location={location} key={location.pathname}>
+            <Routes>
               <Route path="*" element={<NotFound />} />
               <Route exact path="/" element={<SignIn />} />
               <Route
-                path="/main"
+                path="/main/*"
                 element={
                   <ProtectedRoute>
                     <Main />

@@ -22,7 +22,6 @@ const Option = ({ title, text, h = 60, icon = null, link }) => {
           padding: theme.spacing.xl,
           borderRadius: theme.radius.md,
           cursor: "pointer",
-
           "&:hover": {
             backgroundColor: theme.colorScheme === "dark" ? theme.colors.dark[5] : theme.colors.gray[3],
           },

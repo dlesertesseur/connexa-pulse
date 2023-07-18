@@ -15,14 +15,20 @@ export default function SignIn() {
   const theme = useMantineTheme();
   const navigate = useNavigate();
 
-  const { setUser, token, setToken, error } = useContext(AppStateContext);
+  const { setUser, token, setToken, error, setError } = useContext(AppStateContext);
   const [loading, setLoading] = useState(false);
 
   const authenticate = async (values) => {
     setLoading(true);
+
     const ret = await signIn(values);
-    setUser(ret.user);
-    setToken(ret.token);
+    if (ret.error) {
+      setError(ret.message);
+    } else {
+      setError(null);
+      setUser(ret.user);
+      setToken(ret.token);
+    }
     setLoading(false);
   };
 
@@ -88,7 +94,7 @@ export default function SignIn() {
               color="red"
               variant="filled"
             >
-              {error.message}
+              {error}
             </Alert>
           ) : null}
 

@@ -186,38 +186,12 @@
     "wmsApiAuth": "Authenticating with wms api",
     "wmsApiData": "Getting data from wms api",
     "color": "Color",
-    "notImplemented":"Not implemented"
+    "notImplemented":"Not implemented",
+    "notImplementedDesc":"Unfortunately the content of this page is not implemented yet."
   },
 
   "userOptions": {
     "account": "Account",
     "logout": "Log out"
-  },
-
-  "options": {
-    "option1": {
-      "title": "Map",
-      "description": "Movement of operators, Location of products, Zones, Dispersion,"
-    },
-    "option2": {
-      "title": "Activities",
-      "description": "Number of operators per activity in real time."
-    },
-    "option3": {
-      "title": "Transport",
-      "description": "General transport information, Shipments, Receptions, Loading, Delays."
-    },
-    "option4": {
-      "title": "Productivity",
-      "description": "General information on productivity, Ranking, Tasks performed, Times, Delays, Awards"
-    },
-    "option5": {
-      "title": "Speeds",
-      "description": "Indicators that reflect concepts expressed in magnitudes."
-    },
-    "option6": {
-      "title": "TMS",
-      "description": "Travel planning, Times, Pallet assembly, Destinations."
-    }
   }
 }
